@@ -14,7 +14,7 @@ public class FileSearchApp {
 	
 	public static void main(String[] args) {
 		
-		FileSearchApp app=new FileSearchApp();
+		FileSearchApp app=new FileSearchApp(); 
 		
 		switch(Math.min(args.length, 3)){
 		case 0:
