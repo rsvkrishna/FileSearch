@@ -91,8 +91,6 @@ public class FileSearchApp {
 		}
 		
 	}
-	
-	
 	public void walkDirectoryInJava8(String path) throws IOException{
 		Files.walk(Paths.get(path)).forEach(f->processFile(f.toFile()));
 	}
